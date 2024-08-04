@@ -1,0 +1,16 @@
+.layout {
+  width: 100%;
+}
+
+.innerLayout {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+@media screen and (max-width: 65rem) {
+  .innerLayout {
+    width: 85%;
+  }
+}

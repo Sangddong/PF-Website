@@ -1,0 +1,58 @@
+.main {
+  list-style: none;
+  display: flex;
+}
+.welcome {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.welcome:nth-child(1) {
+  margin-top: 5rem;
+}
+.welcome span {
+  font-size: 3rem;
+  margin-right: 10px;
+}
+.welcome span:nth-child(1) {
+  color: transparent;
+  background-image: linear-gradient(to right, #2ae4f0, #fd5fe3);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.main li p {
+  font-weight: 200;
+  margin-top: 10px;
+}
+.explore {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+}
+.explore span {
+  cursor: pointer;
+}
+.pointer {
+  position: relative;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 65rem) {
+  .welcome {
+    font-size: 1.8rem;
+  }
+  .welcome span {
+    font-size: 2.3rem;
+  }
+  .explore span {
+    font-size: 0.8rem;
+  }
+  .pointer {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 5px;
+  }
+}
